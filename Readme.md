@@ -25,16 +25,16 @@ This iOS app allows users to **remotely monitor and control smart devices** such
 
 <table>
   <tr>
-    <td><img src="https://github.com/tschmidt6/iotChallenge/blob/main/screenshots/dashboard.png" width=50% height=50%/></td>
-    <td><img src="https://github.com/tschmidt6/iotChallenge/blob/main/screenshots/devices.png" width=50% height=50%/></td>
-    <td><img src="https://github.com/tschmidt6/iotChallenge/blob/main/screenshots/alerts.png" width=50% height=50%/></td>
-    <td><img src="https://github.com/tschmidt6/iotChallenge/blob/main/screenshots/settings.png" width=50% height=50%/></td>
+    <td><img src="https://github.com/tschmidt6/iotChallenge/blob/main/screenshots/dashboard.png" width=100%/></td>
+    <td><img src="https://github.com/tschmidt6/iotChallenge/blob/main/screenshots/devices.png" width=100%/></td>
+    <td><img src="https://github.com/tschmidt6/iotChallenge/blob/main/screenshots/alerts.png" width=100%/></td>
+    <td><img src="https://github.com/tschmidt6/iotChallenge/blob/main/screenshots/settings.png" width=100%/></td>
   </tr>
   <tr>
-    <td><img src="https://github.com/tschmidt6/iotChallenge/blob/main/screenshots/generatorDetail.png" width=50% height=50%/></td>
-    <td><img src="https://github.com/tschmidt6/iotChallenge/blob/main/screenshots/backupGeneratorDetail.png" width=50% height=50%/></td>
-    <td><img src="https://github.com/tschmidt6/iotChallenge/blob/main/screenshots/manualView.png" width=50% height=50%/></td>
-    <td><img src="https://github.com/tschmidt6/iotChallenge/blob/main/screenshots/lawnmowerDetail.png" width=50% height=50%/></td>
+    <td><img src="https://github.com/tschmidt6/iotChallenge/blob/main/screenshots/generatorDetail.png" width=100%/></td>
+    <td><img src="https://github.com/tschmidt6/iotChallenge/blob/main/screenshots/backupGeneratorDetail.png" width=100%/></td>
+    <td><img src="https://github.com/tschmidt6/iotChallenge/blob/main/screenshots/manualView.png" width=100%/></td>
+    <td><img src="https://github.com/tschmidt6/iotChallenge/blob/main/screenshots/lawnmowerDetail.png" width=100%/></td>
   </tr>
 </table>
 
