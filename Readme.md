@@ -23,21 +23,20 @@ This iOS app allows users to **remotely monitor and control smart devices** such
 
 ## Screenshots
 
-<img src="https://github.com/tschmidt6/iotChallenge/blob/main/screenshots/dashboard.png" width=50% height=50%>
-
-<img src="https://github.com/tschmidt6/iotChallenge/blob/main/screenshots/devices.png" width=50% height=50%>
-
-<img src="https://github.com/tschmidt6/iotChallenge/blob/main/screenshots/alerts.png" width=50% height=50%>
-
-<img src="https://github.com/tschmidt6/iotChallenge/blob/main/screenshots/settings.png" width=50% height=50%>
-
-<img src="https://github.com/tschmidt6/iotChallenge/blob/main/screenshots/manualView.png" width=50% height=50%>
-
-<img src="https://github.com/tschmidt6/iotChallenge/blob/main/screenshots/lawnmowerDetail.png" width=50% height=50%>
-
-<img src="https://github.com/tschmidt6/iotChallenge/blob/main/screenshots/generatorDetail.png" width=50% height=50%>
-
-<img src="https://github.com/tschmidt6/iotChallenge/blob/main/screenshots/backupGeneratorDetail.png" width=50% height=50%>
+<table>
+  <tr>
+    <td><img src="https://github.com/tschmidt6/iotChallenge/blob/main/screenshots/dashboard.png" width=50% height=50%/></td>
+    <td><img src="https://github.com/tschmidt6/iotChallenge/blob/main/screenshots/devices.png" width=50% height=50%/></td>
+    <td><img src="https://github.com/tschmidt6/iotChallenge/blob/main/screenshots/alerts.png" width=50% height=50%/></td>
+    <td><img src="https://github.com/tschmidt6/iotChallenge/blob/main/screenshots/settings.png" width=50% height=50%/></td>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/tschmidt6/iotChallenge/blob/main/screenshots/generatorDetail.png" width=50% height=50%/></td>
+    <td><img src="https://github.com/tschmidt6/iotChallenge/blob/main/screenshots/backupGeneratorDetail.png" width=50% height=50%/></td>
+    <td><img src="https://github.com/tschmidt6/iotChallenge/blob/main/screenshots/manualView.png" width=50% height=50%/></td>
+    <td><img src="https://github.com/tschmidt6/iotChallenge/blob/main/screenshots/lawnmowerDetail.png" width=50% height=50%/></td>
+  </tr>
+</table>
 
 ---
 
@@ -51,12 +50,12 @@ This iOS app allows users to **remotely monitor and control smart devices** such
 ```json
 {
   "uuid": "123e4567-e89b-12d3-a456-426614174000",
-  "device": "lawnmower",
+  "device": "Ryobi 1800 watt power generator",
   "battery": 62,
   "status": "Running",
   "runtimeLeft": "34 mins",
   "isLightOn": true,
-  "alert": "Battery low"
+  "alert": "Fuel low"
 }
 ```
 ## How Alerts Work
@@ -79,3 +78,5 @@ Received: {"command": "shutdown", "device": "generator"}
 <img src="https://github.com/tschmidt6/iotChallenge/blob/main/simulator.gif" width=50% height=50%>
 
 <img src="https://github.com/tschmidt6/iotChallenge/blob/main/server.gif" width=50% height=50%>
+
+<img src="https://github.com/tschmidt6/iotChallenge/blob/main/camera.gif" width=50% height=50%>

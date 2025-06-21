@@ -25,7 +25,7 @@ struct DeviceMessage: Codable {
 struct WebSocketConfig {
     static var baseURL: String {
         #if DEBUG
-        return "ws://[YOUR IP ADDRESS HERE]:8000/ws/devices" // Use your device IP to test
+        return "ws://[YOUR API]:8000/ws/devices" // Use your device IP to test
         #else
         return "wss://api.mydeviceserver.com/ws/devices" // Production
         #endif

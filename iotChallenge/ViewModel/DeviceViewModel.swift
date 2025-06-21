@@ -8,7 +8,7 @@ import Combine
 import Foundation
 import SwiftUI
 
-struct Device: Identifiable, Equatable {
+struct Device: Identifiable, Equatable, Decodable {
     let id: String
     let name: String?
     var isConnected: Bool?
@@ -70,6 +70,18 @@ class DeviceViewModel: ObservableObject {
         let message = ["device": device, "command": command]
         if let data = try? JSONSerialization.data(withJSONObject: message) {
             webSocket.send(message: data)
+        }
+    }
+    
+    func addDevice(fromQRCode string: String) {
+        // Parse string (UUID or JSON) to create Device
+        if let data = string.data(using: .utf8),
+           let decoded = try? JSONDecoder().decode(Device.self, from: data) {
+            devices.append(decoded)
+        } else {
+            // fallback: assume string is just UUID or name
+            let newDevice = Device(id: UUID().uuidString, name: "New Device", type: "unknown", isLightOn: false) // customize
+            devices.append(newDevice)
         }
     }
 }
